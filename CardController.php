@@ -32,10 +32,10 @@ class CardController extends \console\components\controllers\BaseController
 
     public function __construct($id, Module $module, array $config = [])
     {
-       /* $baseUrl = 'https://uat.noumena.pro';
-        $apiKey = 'd28771ded05e48c28906d65a37f0b081';
-        $apiSecret = '0b2167f6-8c04-445d-9d1a-6dc34ed8574f';
-        $passphrase  = '123456';*/
+       /* $baseUrl = 'https://api.sandbox.railone.io';
+        $apiKey = '14db63d7f3614664ad1c71dd134a21dc';
+        $apiSecret = 'ed8cb3a0-8365-4340-9d9c-33f051eedccd';
+        $passphrase  = '12345678a';*/
 
         $apiData = CardApiConfigModel::getConfig();
 
